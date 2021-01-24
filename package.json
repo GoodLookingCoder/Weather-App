@@ -1,0 +1,14 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "Know your weather",
+  "main": "weather.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edel David",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.16.1"
+  }
+}

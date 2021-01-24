@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let p = document.createElement("p");
+        p.className = "data";
+        let span1 = document.createElement("span");
+        span1.className = "dataSpan";
+        span1.innerHTML = "Visivility";
+        let br = document.createElement("br");
+        let span2 = document.createElement("span");
+        span2.innerHTML = "10.49km";
+
+        p.appendChild(span1);
+        p.appendChild(br);
+        p.appendChild(span2);
+        document.body.appendChild(p);
+    </script>    
+</body>
+</html>

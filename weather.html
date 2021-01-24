@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap" rel="stylesheet"-->
+    <link rel="stylesheet" href="weather.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <header>
+        <h1>WeatherCheck</h1>
+        <form class="head-flex">
+            <button id="ubication"><img id="ubpng" src="PNG/ubication.png"></button>
+            <input type="text" placeholder="Enter a City Name" required>
+            <button id="submit"><img id="sepng" src="PNG/search.png"></button>
+        </form>
+        <p id="error">Testing this shit</p>
+        <div class="button-cover">
+            <span id="F">F</span>
+            <span id="C">C</span>
+            <div class="button r" id="button-3">
+              <input type="checkbox" class="checkbox">
+              <div class="knobs"></div>
+              <div class="layer"></div>
+            </div>
+          </div>
+    </header>
+    <section>
+        <div id="loaderWrapper"><div id="loader"></div></div>
+        <div class="section-center">
+            <div id="smSun">
+                <img id="smilingFace" src="PNG/face.png">
+                <img id="rays" src="PNG/rays.png">
+            </div>
+        </div>
+        <p id="helpText">Search for a location to check the weather</p>        
+    </section>
+    <footer>Powered by <a id="APIlink" target="_blank" href="#">OpenWeatherMap API</a></footer>
+    <script src="bundle.js"></script>
+</body>
+</html>
